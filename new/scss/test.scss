@@ -1,0 +1,15 @@
+.star{
+    font-family: "Font Awesome 5 Free";
+    font-size: 15px;
+    color: #fc6530;
+  }
+  .star:before{
+    font-weight: 900;
+  }
+  .star:after{
+    font-weight: 400;
+  }
+  .star[data-rate="1.0"]:before{ content: "\f005"; }
+
+
+  

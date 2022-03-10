@@ -1,0 +1,196 @@
+body {
+  background-color: #e1e5ff;
+  height: 1200px;
+}
+
+.top {
+  color: white;
+  font-size: 40px;
+  background-color: #475189;
+  height: 165px;
+}
+
+.top img {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.top h1 {
+  position: absolute;
+  top: 15px;
+  left: 80px;
+  color: white;
+  font-size: 30px;
+  font-size: 900;
+}
+
+.mail {
+  position: absolute;
+  top: 17%;
+  left: 15%;
+  background-color: white;
+  width: 70%;
+  height: 1000px;
+}
+
+.mail h1 {
+  font-weight: 900;
+  color: #475189;
+  font-size: 30px;
+  text-align: center;
+  padding: 12px 0;
+  border-bottom: solid #475189 2px;
+}
+
+.mail .from {
+  display: block;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid  #626991 1px;
+}
+
+.mail .from label {
+  color: #475189;
+  padding-left: 40px;
+  margin-right: 160px;
+  font-size: 30px;
+}
+
+.mail .from input {
+  font-size: 25px;
+  border: solid #afafaf 1px;
+  border-radius: 9px;
+  padding: 8px;
+  padding-right: 150px;
+}
+
+.mail .to {
+  display: block;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid  #626991 1px;
+}
+
+.mail .to label {
+  color: #475189;
+  padding-left: 40px;
+  margin-right: 205px;
+  font-size: 30px;
+}
+
+.mail .to input {
+  font-size: 25px;
+  border: solid #afafaf 1px;
+  border-radius: 9px;
+  padding: 8px;
+  padding-right: 150px;
+}
+
+.mail .ymd {
+  display: block;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid  #626991 1px;
+}
+
+.mail .ymd label {
+  color: #475189;
+  padding-left: 40px;
+  margin-right: 170px;
+  font-size: 30px;
+}
+
+.mail .ymd input {
+  font-size: 25px;
+  border: solid #afafaf 1px;
+  border-radius: 9px;
+  padding: 8px;
+}
+
+.mail .tit {
+  display: block;
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+  border-bottom: solid  #626991 1px;
+}
+
+.mail .tit label {
+  color: #475189;
+  padding-left: 40px;
+  margin-right: 175px;
+  font-size: 30px;
+}
+
+.mail .tit input {
+  font-size: 25px;
+  border: solid #afafaf 1px;
+  border-radius: 9px;
+  padding: 8px;
+  padding-right: 150px;
+}
+
+.mail .alertText {
+  color: red;
+}
+
+.mail .sentence {
+  margin-top: 20px;
+  margin-right: 40px;
+  margin-left: 40px;
+  padding-bottom: 10px;
+}
+
+.mail .sentence label {
+  color: #475189;
+  padding-left: 40px;
+  font-size: 30px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+.mail .sentence textarea {
+  resize: none;
+  font-size: 16px;
+  border: solid #afafaf 1px;
+  border-radius: 9px;
+  width: 90%;
+  height: 400px;
+  margin-left: 45px;
+}
+
+.mail .submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 218px;
+  margin-top: 30px;
+}
+
+.mail .submit .btm {
+  font-size: 20px;
+  color: white;
+  background-color: #475189;
+  padding: 10px 100px;
+  border-radius: 100px;
+  margin-right: 30px;
+}
+
+.mail .submit .btm:hover {
+  color: #475189;
+  outline: 1px solid #475189;
+  outline-offset: 0;
+  background-color: white;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-weight: 900;
+}
+/*# sourceMappingURL=mail.css.map */
